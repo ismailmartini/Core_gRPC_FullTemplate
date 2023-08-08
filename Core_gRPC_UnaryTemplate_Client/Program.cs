@@ -13,9 +13,9 @@ namespace Core_gRPC_UnaryTemplate_Client
             {
                 var channel = GrpcChannel.ForAddress("https://localhost:5001");
                 var messageClient = new message.messageClient(channel);
-                Console.WriteLine("Lütfen gönderilecek mesajı giriniz.");
+                Console.WriteLine("Please Enter Message.");
                 var messageResponse = await messageClient.GetMessageAsync(new MessageRequest { Message = Console.ReadLine() });
-                Console.WriteLine($"Gelen Cevap : {messageResponse.Message}");
+                Console.WriteLine($"Response  : {messageResponse.Message}");
             }
         }
     }
