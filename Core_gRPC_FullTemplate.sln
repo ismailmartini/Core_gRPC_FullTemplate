@@ -3,13 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_FullTemplate", "Core_gRPC_FullTemplate\Core_gRPC_FullTemplate.csproj", "{C23B1C25-C023-47FA-953D-D05C6B4132CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_gRPC_FullTemplate", "Core_gRPC_FullTemplate\Core_gRPC_FullTemplate.csproj", "{C23B1C25-C023-47FA-953D-D05C6B4132CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_FullTemplate_Client", "Core_gRPC_FullTemplate_Client\Core_gRPC_FullTemplate_Client.csproj", "{A590395B-F981-4D0A-9BBF-BF9965009D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_gRPC_FullTemplate_Client", "Core_gRPC_FullTemplate_Client\Core_gRPC_FullTemplate_Client.csproj", "{A590395B-F981-4D0A-9BBF-BF9965009D31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_UnaryTemplate_Server", "Core_gRPC_UnaryTemplate_Server\Core_gRPC_UnaryTemplate_Server.csproj", "{4973E162-B41C-479E-80D4-4AB187E85900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_gRPC_UnaryTemplate_Server", "Core_gRPC_UnaryTemplate_Server\Core_gRPC_UnaryTemplate_Server.csproj", "{4973E162-B41C-479E-80D4-4AB187E85900}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_UnaryTemplate_Client", "Core_gRPC_UnaryTemplate_Client\Core_gRPC_UnaryTemplate_Client.csproj", "{B80CA5A7-B9FC-402F-9EDD-2320794B0558}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_gRPC_UnaryTemplate_Client", "Core_gRPC_UnaryTemplate_Client\Core_gRPC_UnaryTemplate_Client.csproj", "{B80CA5A7-B9FC-402F-9EDD-2320794B0558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_ServerStreamingTemplate_Server", "Core_gRPC_ServerStreamingTemplate_Server\Core_gRPC_ServerStreamingTemplate_Server.csproj", "{4762112A-4A0E-4FEF-BA89-736D5365BB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_ServerStreamingTemplate_Client", "Core_gRPC_ServerStreamingTemplate_Client\Core_gRPC_ServerStreamingTemplate_Client.csproj", "{A32F0FE0-AA25-44F4-A38F-3700854E4C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_ClientStreamingTemplate_Server", "Core_gRPC_ClientStreamingTemplate_Server\Core_gRPC_ClientStreamingTemplate_Server.csproj", "{ECEB907E-7F19-4296-A650-B9DF6A7DD478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_ClientStreamingTemplate_Client", "Core_gRPC_ClientStreamingTemplate_Client\Core_gRPC_ClientStreamingTemplate_Client.csproj", "{DA3B87F3-C91B-49E8-A034-A9574CD173A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_Bi_directionalStreamingTemplate_Server", "Core_gRPC_Bi_directionalStreamingTemplate_Server\Core_gRPC_Bi_directionalStreamingTemplate_Server.csproj", "{5B0703E8-F8BC-4CA5-89A1-A400FF50B27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_gRPC_Bi_directionalStreamingTemplate_Client", "Core_gRPC_Bi_directionalStreamingTemplate_Client\Core_gRPC_Bi_directionalStreamingTemplate_Client.csproj", "{C0B3C675-0524-475F-A785-A09EAB8511C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +45,30 @@ Global
 		{B80CA5A7-B9FC-402F-9EDD-2320794B0558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B80CA5A7-B9FC-402F-9EDD-2320794B0558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B80CA5A7-B9FC-402F-9EDD-2320794B0558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4762112A-4A0E-4FEF-BA89-736D5365BB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4762112A-4A0E-4FEF-BA89-736D5365BB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4762112A-4A0E-4FEF-BA89-736D5365BB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4762112A-4A0E-4FEF-BA89-736D5365BB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32F0FE0-AA25-44F4-A38F-3700854E4C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32F0FE0-AA25-44F4-A38F-3700854E4C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32F0FE0-AA25-44F4-A38F-3700854E4C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32F0FE0-AA25-44F4-A38F-3700854E4C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEB907E-7F19-4296-A650-B9DF6A7DD478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEB907E-7F19-4296-A650-B9DF6A7DD478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEB907E-7F19-4296-A650-B9DF6A7DD478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEB907E-7F19-4296-A650-B9DF6A7DD478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3B87F3-C91B-49E8-A034-A9574CD173A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3B87F3-C91B-49E8-A034-A9574CD173A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3B87F3-C91B-49E8-A034-A9574CD173A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3B87F3-C91B-49E8-A034-A9574CD173A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0703E8-F8BC-4CA5-89A1-A400FF50B27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0703E8-F8BC-4CA5-89A1-A400FF50B27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0703E8-F8BC-4CA5-89A1-A400FF50B27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0703E8-F8BC-4CA5-89A1-A400FF50B27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B3C675-0524-475F-A785-A09EAB8511C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B3C675-0524-475F-A785-A09EAB8511C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B3C675-0524-475F-A785-A09EAB8511C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B3C675-0524-475F-A785-A09EAB8511C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,7 +11,7 @@ namespace Core_gRPC_FullTemplate_Client
             var channel = GrpcChannel.ForAddress("https://localhost:5001");
             var greetClient = new Greeter.GreeterClient(channel);
             HelloReply response = await greetClient.SayHelloAsync(new HelloRequest { Name = "ismail" });
-            Console.WriteLine($"Gelen Cevap : {response.Message}");
+            Console.WriteLine($"recieved message : {response.Message}");
             Console.ReadKey();
         }
     }

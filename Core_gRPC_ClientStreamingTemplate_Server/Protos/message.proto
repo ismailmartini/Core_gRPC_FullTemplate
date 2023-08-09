@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "Core_gRPC_ClientStreamingTemplate_Server";
+package message;
+ 
+service Message {
+  rpc GetMessage(stream MessageRequest) returns (MessageResponse);
+}
+message MessageRequest {
+  string message = 1;
+}
+message MessageResponse {
+  string message = 1;
+}
